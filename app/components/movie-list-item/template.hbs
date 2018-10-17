@@ -1,0 +1,15 @@
+<article>
+  <img 
+    src="https://image.tmdb.org/t/p/w200/{{movie.poster_path}}" 
+    alt="" 
+    class="movie__image"
+  >
+  <div class="movie__description">
+    <h2 class="movie__title">{{movie.title}}</h2>
+    <p class="movie__genre">genre</p>
+    {{#each movie.genres as |genre|}}
+      <span class="movie__genre-item">{{genre.name}}</span>
+    {{/each}}
+  </div>
+</article>
+

@@ -1,0 +1,18 @@
+@import 'pod-styles';
+@import 'normalize.css';
+
+* {
+  box-sizing: border-box;
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+.content {
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,13 @@
+<div class="side-bar">
+  <h3 class="side-bar__title">Filters</h3>
+  <ul class="genres">
+    {{#each genres as |genre|}}
+      <li class="genres__item">
+        <label for={{genre.name}}>
+          {{input-checkbox inputId=genre.name checked=isSelected}}
+          {{genre.name}}
+        </label>
+      </li>
+    {{/each}}
+  </ul>
+</div>

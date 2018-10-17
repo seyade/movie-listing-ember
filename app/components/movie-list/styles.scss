@@ -1,0 +1,11 @@
+& {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+
+  .movies {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    list-style: none;
+  }
+}
